@@ -96,7 +96,7 @@
                         <p>your number <span>*</span></p>
                         <input type="number" name="number" required class="input"
                             maxlength="10" max="9999999999" min="0" 
-                            placeholder="enter your name" />
+                            placeholder="enter your number" />
                         <p>payment method <span>*</span></p>
                         <select name="method" id="method" 
                             require class="input">

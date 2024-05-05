@@ -1,0 +1,74 @@
+.orders .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, 35rem);
+   align-items: flex-start;
+   justify-content: center;
+   gap: 1.5rem;
+}
+
+.orders .box-container .box{
+   background-color: var(--white);
+   border-radius: .5rem;
+   border: var(--border);
+   padding: 2rem;
+   overflow-x: hidden;
+}
+
+.orders .box-container .box .date{
+   padding:1rem 1.5rem;
+   color: var(--light-color);
+   background-color: var(--light-bg);
+   font-size: 1.6rem;
+   display: inline-block;
+   margin-bottom: 1.5rem;
+   border-radius: .5rem;
+}
+
+.orders .box-container .box .date i{
+   margin-right: 1rem;
+   color: var(--main-color);
+}
+
+.orders .box-container .box .image{
+   height: 20rem;
+   width: 100%;
+   object-fit: contain;
+   margin: 1rem 0;
+}
+
+.orders .box-container .box .name{
+   font-size: 2rem;
+   color: var(--black);
+   text-overflow: ellipsis;
+   margin: 1rem 0;
+   overflow-x: hidden;
+}
+
+.orders .box-container .box .price{
+   color: var(--red);
+   font-size: 1.8rem;
+   padding: .5rem 0;
+}
+
+.orders .box-container .box .status{
+   padding-top: .5rem;
+   font-size: 1.7rem;
+}
+
+.orders .box-container .box:hover{
+   box-shadow: var(--box-shodow);
+}
+
+.orders .box-container .box:hover .date{
+   background-color: var(--black);
+   color: var(--white);
+}
+.orders .box-container .box:hover .date i{
+   color: var(--white);
+}
+
+@media (max-width:450px){
+   .orders .box-container{
+      grid-template-columns: 1fr;
+   }
+}
