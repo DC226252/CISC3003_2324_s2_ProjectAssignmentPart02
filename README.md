@@ -1,1 +1,1 @@
-# CISC3003_2324_s2_ProjectAssignmentPart02
+# CISC3003_2324s2_ProjectAssignmentPart02
